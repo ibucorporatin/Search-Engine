@@ -3,7 +3,7 @@ import React from 'react';
 const Navebar = () => {
     return (
        <nav className='ui raisedvery padded segment'>
-        <a href="/" className='ui teal inverted segment' > image search engine </a>
+        <a href="/" className='ui teal inverted segment' > Image Search Engine </a>
         <div className='ui right floated header' >
           
             <a href="/"><button className='ui button'>Home</button></a>

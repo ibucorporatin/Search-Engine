@@ -6,6 +6,7 @@ import Navebar from './Navebar';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 class App extends React.Component {
+  
     render() {
         return (
           <>  <Navebar/>
@@ -13,7 +14,7 @@ class App extends React.Component {
               
               <Routes>
                 <Route >
-                  <Route path='/home'  element={<Home/>} />
+                  <Route path='/'  element={<Home/>} />
                   <Route  path="/about" element={<About/>} />
                   <Route path="/contact" element={<Contact/>} />
                
